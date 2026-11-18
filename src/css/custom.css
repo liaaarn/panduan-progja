@@ -1,0 +1,52 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0081b8;
+  --ifm-color-primary-dark: #0076a8;
+  --ifm-color-primary-darker: #006f9e;
+  --ifm-color-primary-darkest: #00567a;
+  --ifm-color-primary-light: #1592d1;
+  --ifm-color-primary-lighter: #33a4eb;
+  --ifm-color-primary-lightest: #52cbff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #33a4eb;
+  --ifm-color-primary-dark: #1592d1;
+  --ifm-color-primary-darker: #0081b8;
+  --ifm-color-primary-darkest: #00567a;
+  --ifm-color-primary-light: #52cbff;
+  --ifm-color-primary-lighter: #7fd7ff;
+  --ifm-color-primary-lightest: #b8ecff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Tanpa kotak/border pada daftar card kategori (generated index) */
+.theme-doc-card-container {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.theme-doc-card-container:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Sembunyikan ikon emoji pada card kategori */
+.theme-doc-card-icon {
+  display: none !important;
+}
+
+:root {
+  --ifm-font-size-base: 14px;
+}

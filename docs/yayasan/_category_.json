@@ -1,0 +1,9 @@
+{
+  "label": "Yayasan",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Panduan Yayasan",
+    "description": "Panduan ini ditujukan untuk akun Yayasan dalam sistem Progja. Ruang lingkupnya meliputi pengelolaan master data, user management, pembuatan sasaran mutu, serta persetujuan akhir program kerja."
+  }
+}
